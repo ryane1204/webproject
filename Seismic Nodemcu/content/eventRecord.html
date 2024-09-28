@@ -1,0 +1,16 @@
+<h1>Event Record</h1>
+<div id="eventLogContent">
+  <p>Loading event records...</p>
+</div>
+
+<script>
+  // Load event logs
+  fetch('/getEventLogs')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('eventLogContent').innerHTML = data;
+    })
+    .catch(err => {
+      document.getElementById('eventLogContent').innerHTML = "Failed to load event logs.";
+    });
+</script>

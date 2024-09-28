@@ -1,0 +1,16 @@
+<h1>Current System Status</h1>
+<div id="currentStatusContent">
+  <p>Loading current status...</p>
+</div>
+
+<script>
+  // Load system status
+  fetch('/getSystemStatus')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('currentStatusContent').innerHTML = data;
+    })
+    .catch(err => {
+      document.getElementById('currentStatusContent').innerHTML = "Failed to load system status.";
+    });
+</script>

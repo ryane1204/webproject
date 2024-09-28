@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Seismic Monitoring System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div id="logo">
+      <img src="canterbury_logo.png" alt="Canterbury Logo" width="150">
+    </div>
+    <h1>Seismic Monitoring System</h1>
+  </header>
+
+  <!-- Navigation Menu -->
+  <nav>
+    <h2>Administration Access</h2>
+    <ul>
+      <li><a href="#" onclick="loadContent('eventRecord')">Event Record</a></li>
+      <li><a href="#" onclick="loadContent('currentStatus')">Current Status</a></li>
+      <li><a href="#" onclick="loadContent('liveData')">Live Data</a></li>
+      <li><a href="#" onclick="loadContent('instrumentConfig')">Instrument Configuration</a></li>
+      <li><a href="#" onclick="loadContent('seedlinkConfig')">Seedlink Configuration</a></li>
+      <li><a href="#" onclick="loadContent('mlinkConfig')">M-link Configuration</a></li>
+      <li><a href="#" onclick="loadContent('websiteConfig')">Website Configuration</a></li>
+      <li><a href="#" onclick="loadContent('commConfig')">Communication Configuration</a></li>
+      <li><a href="#" onclick="loadContent('automatedOutputs')">Automated Outputs</a></li>
+      <li><a href="#" onclick="loadContent('timingSubsystem')">Timing Subsystem</a></li>
+      <li><a href="#" onclick="loadContent('diagnosticLog')">Diagnostic Log</a></li>
+      <li><a href="#" onclick="loadContent('diagnosticReports')">Diagnostic Reports</a></li>
+      <li><a href="#" onclick="loadContent('recordStorage')">Record Storage Maintenance</a></li>
+      <li><a href="#" onclick="loadContent('logout')">Logout</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content Area -->
+  <section id="content">
+    <h2>Welcome to the Seismic Monitoring System</h2>
+    <p>Select a menu option to view the respective page.</p>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
