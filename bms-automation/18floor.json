@@ -1,0 +1,44 @@
+{
+  "accounts": [
+    {
+      "username": "user1",
+      "password": "pass1234"
+    },
+    {
+      "username": "user2",
+      "password": "secret5678"
+    },
+    {
+      "username": "user3",
+      "password": "mypassword9"
+    },
+    {
+      "username": "user4",
+      "password": "codeword321"
+    },
+    {
+      "username": "user5",
+      "password": "securePass12"
+    },
+    {
+      "username": "user6",
+      "password": "lockdown2024"
+    },
+    {
+      "username": "user7",
+      "password": "hidden789"
+    },
+    {
+      "username": "user8",
+      "password": "vaultkey987"
+    },
+    {
+      "username": "user9",
+      "password": "shield9876"
+    },
+    {
+      "username": "user10",
+      "password": "fortress4321"
+    }
+  ]
+}
